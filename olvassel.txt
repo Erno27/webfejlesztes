@@ -1,6 +1,6 @@
 készítő: Rankasz Ernő
 
-URL: 
+URL: https://erno27.github.io/webfejlesztes/index.html
 
 Téma: Egy elrejtett kisvárosban lévő Luxus Fodrászat weboldala. 
 
@@ -17,4 +17,5 @@ Használt egyedi fonttípus és helye:
 Felhasznált külső források:
 - Google Fonts (Noto Serif betűtípus importálása).
 - képek és illusztrációk: Mindegyik felhasznált kép a Gemini által lett létrehozva
+
 -A kód írásában egy alap kezdetleges Html, néhol css fájl generálása mesterséges intelligenciával. illetve a script optimalizálásánál
