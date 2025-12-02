@@ -66,7 +66,7 @@ header {
     padding: 8px 5px;
     width: 100%;
     font-size: 13px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 strong{
     font-weight: 700;
@@ -679,4 +679,5 @@ strong{
         background-color: #666;
         transform: translateY(-5px);
     }
+
 }
