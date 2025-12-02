@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pacek Barber Cut</title>
+        <link rel="stylesheet" href="css.css">
+        <script src="foglalas.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <header>
+            <nav class="navbar">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo" class="logo-bal">
+                </a>
+
+                <div class="nav-links">
+                    <a href="index.html">Rólunk</a>
+                    <a href="szakik.html">Szakembereink</a>
+                    <a href="arak.html">Árak</a>
+                    <a class="alahuzas" href="foglalas.html">Foglalás</a>
+                    <a href="velemenyek.html">Vélemények</a>
+                </div>
+
+            </nav>
+        </header>
+        <div class="legfelülakcionagy">
+            <div class="legfelulakcioszoveg"><strong class="Diák">Diákkal mégjobban megéri!</strong> Érvényes diákigazolványod felmutatásával további kedvezményben részesülhetsz.</div>
+        </div>
+
+        <main class="foglalasMain">
+                <h1>Foglalj időpontot</h1>
+                <div class="foglalas-flex">
+                    <form class="foglalas-form">
+                        <label for="nev">Név:</label>
+                        <input type="text" id="nev" name="nev" placeholder="Minta Péter" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="MintaPeti06@gmail.com" required>
+
+                        <label for="telefon">Telefonszám:</label>
+                        <input type="tel" id="telefon" name="telefon" placeholder="0630 123 4567" required>
+
+                        <label for="szakember">Szakember:</label>
+                        <select id="szakember" name="szakember">
+                            <option value="">Válassz szakembert</option>
+                            <option value="Félix">Félix</option>
+                            <option value="Sánel">Sánel</option>
+                            <option value="Icu-néni">Icu-néni</option>
+                        </select>
+
+                        <label for="szolgaltatas">Szolgáltatás:</label>
+                        <select id="szolgaltatas" name="szolgaltatas" required>
+                            <option value="">Válassz szolgáltatást</option>
+                            <option value="rovidvagas">Rövidvágás</option>
+                            <option value="hosszuvagas">Hosszúvágás</option>
+                            <option value="gepihajvagas">Gépi hajvágás</option>
+                            <option value="szakall">Szakáll igazítás</option>
+                            <option value="festes">Festés</option>
+                            <option value="kutya">Kutyakozmetika</option>
+                            <option value="novella">Novellaelemzés</option>
+                        </select>
+
+                        <label for="datum">Dátum:</label>
+                        <input type="date" id="datum" name="datum" required>
+
+                        <label for="ido">Időpont:</label>
+                        <input type="time" id="ido" name="ido" required>
+
+                        <button type="submit" class="foglalas-gomb">Foglalás küldése</button>
+                        <div class="errorfog"></div>
+                    </form>
+
+                    <div class="foglalas-kep">
+                        <img src="szalon.png" alt="szalon kép">
+                    </div>
+                </div>
+        </main>
+    </body>
+    <footer class="footer">
+        <p>&copy; 2025 Csak A Pacek Hairsalon. Minden jog fenntartva. A vállalkozás fiktív, a képek <strong>NEM</strong> igaziak!</p>
+    </footer>
+
+</html>

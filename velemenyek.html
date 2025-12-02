@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Csak A Pacek Barber Salon</title>
+        <link rel="stylesheet" href="css.css">
+        <script src="velemenyek.js"  defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <header>
+            <nav class="navbar">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo" class="logo-bal">
+                </a>
+
+                <div class="nav-links">
+                    <a href="index.html">Rólunk</a>
+                    <a href="szakik.html">Szakembereink</a>
+                    <a href="arak.html">Árak</a>
+                    <a href="foglalas.html">Foglalás</a>
+                    <a class="alahuzas" href="velemenyek.html">Vélemények</a>
+                </div>
+
+            </nav>
+        </header>
+        <main class="velemenyek-oldal">
+            <div class="legfelülakcionagy">
+                <div class="legfelulakcioszoveg"><strong class="Diák">Diákkal mégjobban megéri!</strong> Érvényes diákigazolványod felmutatásával további kedvezményben részesülhetsz.</div>
+            </div>
+            <h1>Vendégeink véleményei</h1>
+            <div class="atlag">Átlag: 4.5/5</div>
+            <div class="velemenymelle">
+                <div class="velemenyek-grid">
+                        
+                    <div class="velemeny-kartya">
+                        <div class="velemeny-fejlec">
+                            <span class="velemeny-nev">Kiss Péter</span>
+                            <div class="velemeny-ertekeles">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="velemeny-szoveg">"Életem legjobb rövidvágása! Sánel profi, gyors és pontos. A szalon hangulata pedig egyenesen fantasztikus! Csak ajánlani tudom!"</p>
+                        <span class="velemeny-datum">2025.02.20.</span>
+                    </div>
+
+                    <div class="velemeny-kartya">
+                            <div class="velemeny-fejlec">
+                                <span class="velemeny-nev">Nagy Anna</span>
+                                <div class="velemeny-ertekeles">⭐⭐⭐⭐</div>
+                            </div>
+                            <p class="velemeny-szoveg">"A festés gyönyörű lett, pont olyan, amilyet kértem. Kicsit sokat kellett várni, de az eredmény kárpótolt. Sánel egy igazi művész!"</p>
+                            <span class="velemeny-datum">2025.09.15.</span>
+                    </div>
+
+                    <div class="velemeny-kartya">
+                            <div class="velemeny-fejlec">
+                                <span class="velemeny-nev">Kovács István</span>
+                                <div class="velemeny-ertekeles">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <p class="velemeny-szoveg">"A Novella elemzés Icu-nénivel felejthetetlen élmény volt, a Gépi hajvágás is hibátlan! Jövök legközelebb is!"</p>
+                            <span class="velemeny-datum">2025.06.30.</span>
+                    </div>
+
+                    <div class="velemeny-kartya">
+                            <div class="velemeny-fejlec">
+                                <span class="velemeny-nev">Tóth Gábor</span>
+                                <div class="velemeny-ertekeles">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <p class="velemeny-szoveg">"Gépi hajvágás + Szakáll igazítás Félixnél. Kicsit drága, de megéri. A végeredmény 10/10."</p>
+                            <span class="velemeny-datum">2025.11.29.</span>
+                    </div>
+                        
+                </div>
+                <form class="velemenyform">
+                    <h2 class="velemenyem">Mondd el a Saját Véleményed!</h2>
+                    <label for="vnev">Név:</label>
+                    <input type="text" id="vnev" name="vnev" placeholder="Minta Péter">
+
+                    <label for="csillag">Hány csillag?</label>
+                    <select id="csillag" name="csillag" required>
+                        <option value="5">⭐⭐⭐⭐⭐</option>
+                        <option value="4">⭐⭐⭐⭐</option>
+                        <option value="3">⭐⭐⭐</option>
+                        <option value="2">⭐⭐</option>
+                        <option value="1">⭐</option>
+                    </select>
+                    <label for="velemenyp">Egyéb Gondolat:</label>
+                    <input type="text" id="velemenyp" name="velemenyp" placeholder="Gondolat">
+
+                    <button type="submit">Küldés</button>
+                    <div class="errormajd"></div>
+                </form>
+            </div>
+                
+
+        </main>
+    </body>
+    <footer class="footer">
+        <p>&copy; 2025 Pacek Barber Salon. Minden jog fenntartva.  A vállalkozás fiktív, a képek <strong>NEM</strong> igaziak!</p>
+    </footer>
+</html>
