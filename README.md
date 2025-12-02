@@ -3,7 +3,7 @@ webfejlesztés tárgy beadandója
 
 készítő: Rankasz Ernő
 
-URL: https://erno27.github.io/webfejlesztes/index.html
+URL: https://erno27.github.io/webfejlesztes/
 
 Téma: Egy elrejtett kisvárosban lévő Luxus Fodrászat weboldala. 
 
